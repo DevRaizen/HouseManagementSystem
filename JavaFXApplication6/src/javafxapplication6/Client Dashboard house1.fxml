@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="contentArea" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="657.0" prefWidth="1118.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication6.viewhousecontroll">
+   <children>
+      <Pane layoutX="256.0" layoutY="150.0" prefHeight="473.0" prefWidth="821.0" style="-fx-background-color: WHITE; -fx-background-radius: 7; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);">
+         <children>
+            <Text layoutX="26.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font name="Calibri" size="14.0" />
+               </font>
+            </Text>
+            <Pane layoutX="35.0" layoutY="62.0" prefHeight="360.0" prefWidth="304.0" style="-fx-background-color: WHITE; -fx-background-radius: 7; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);">
+               <children>
+                  <Text fill="#0f969c" layoutX="163.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unit" />
+                  <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="120.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@apartment.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="19.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@bed.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#0f969c" layoutX="63.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bed" />
+                  <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="212.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@bathtub.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#0f969c" layoutX="253.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Bath" />
+                  <ImageView fitHeight="14.0" fitWidth="12.0" layoutX="20.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pin.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="101.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="month">
+                     <font>
+                        <Font name="Calibri" size="14.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="19.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="₱">
+                     <font>
+                        <Font name="Calibri" size="16.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="lblbed" layoutX="51.0" layoutY="280.0" text="0" />
+                  <Label fx:id="lblunit" layoutX="151.0" layoutY="280.0" text="0" />
+                  <Label fx:id="lblbat" layoutX="245.0" layoutY="282.0" text="0" />
+                  <Label fx:id="lblprice" layoutX="31.0" layoutY="321.0" prefHeight="17.0" prefWidth="57.0" text="0" />
+                  <ImageView fx:id="imgview" fitHeight="239.0" fitWidth="418.0" layoutX="-46.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="lbladdress" layoutX="36.0" layoutY="244.0" prefHeight="17.0" prefWidth="249.0" text="Label" />
+                  <Label fx:id="lblimgname" layoutX="22.0" layoutY="223.0" prefHeight="17.0" prefWidth="264.0" text="Label">
+                     <font>
+                        <Font name="Calibri" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Text layoutX="511.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PROPERTY INFORMATION">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+            <Line endX="-100.0" endY="362.5999755859375" layoutX="510.0" layoutY="56.0" opacity="0.68" startX="-100.0" startY="4.1999969482421875" stroke="#0f969c" strokeWidth="1.5" />
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="42.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@user.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lblhousemem" layoutX="74.0" layoutY="22.0" text="0" textFill="#0f969c">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Text fill="DIMGRAY" layoutX="429.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Additional Information">
+               <font>
+                  <Font name="Calibri" size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="451.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Do not damage the facilities">
+               <font>
+                  <Font name="Calibri" size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="453.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Must pay bills on time">
+               <font>
+                  <Font name="Calibri" size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="453.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forbidden to carry narcotics">
+               <font>
+                  <Font name="Calibri" size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="46.0" fitWidth="18.0" layoutX="429.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@rec.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="46.0" fitWidth="18.0" layoutX="429.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@rec.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="46.0" fitWidth="18.0" layoutX="429.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@rec.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="429.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to a luxurious house apartment with a shimmering pool," textAlignment="JUSTIFY">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Text layoutX="429.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="featuring two units, each with three bedrooms and two bathrooms." textAlignment="JUSTIFY">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Text layoutX="430.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The open-concept living spaces and gourmet kitchens offer">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Text layoutX="429.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="modern elegance, while the serene poolside retreat  adds a">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Text layoutX="429.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="touch of relaxation to vibrant living.">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Button fx:id="btnrent" layoutX="716.0" layoutY="366.0" mnemonicParsing="false" onAction="#renthouse" prefHeight="40.0" prefWidth="67.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="Rent" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Pane layoutX="214.0" layoutY="59.0" prefHeight="57.0" prefWidth="905.0" style="-fx-background-color: white;">
+         <children>
+            <Text layoutX="42.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOUSE LIST">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="214.0" prefHeight="57.0" prefWidth="905.0" style="-fx-background-color: white;">
+         <children>
+            <Circle fill="#ececec" layoutX="850.0" layoutY="29.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Text layoutX="776.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLIENT">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="40.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apartment Management System">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="-24.0" prefHeight="657.0" prefWidth="238.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);">
+         <children>
+            <Text fill="#0f969c" layoutX="135.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SLDR">
+               <font>
+                  <Font name="Book Antiqua" size="22.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="33.0" fitWidth="72.0" layoutX="70.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@361_realestate_logo-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="32.0" layoutY="573.0" mnemonicParsing="false" onAction="#btnlogout" prefHeight="57.0" prefWidth="197.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="Logout" textFill="WHITE" />
+            <Button layoutX="32.0" layoutY="101.0" mnemonicParsing="false" onAction="#DashboardClient" prefHeight="57.0" prefWidth="197.0" style="-fx-background-color: #0C7075; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="Dashboard" textFill="WHITE" />
+            <Button layoutX="32.0" layoutY="171.0" mnemonicParsing="false" onAction="#ManageHouseClient" prefHeight="57.0" prefWidth="197.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="Manage House" textFill="WHITE" />
+            <Button layoutX="32.0" layoutY="240.0" mnemonicParsing="false" onAction="#PaymentsClient" prefHeight="57.0" prefWidth="197.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="Payments" textFill="WHITE" />
+            <Button layoutX="32.0" layoutY="309.0" mnemonicParsing="false" onAction="#AccountClient" prefHeight="57.0" prefWidth="197.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="Account" textFill="WHITE" />
+         </children>
+      </Pane>
+   </children>
+</Pane>

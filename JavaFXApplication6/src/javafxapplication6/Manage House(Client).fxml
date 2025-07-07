@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="contentArea" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="657.0" prefWidth="1118.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="214.0" layoutY="118.0" prefHeight="539.0" prefWidth="905.0" style="-fx-background-color: WHITE; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);">
+         <children>
+            <Text layoutX="26.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font name="Calibri" size="14.0" />
+               </font>
+            </Text>
+            <Pane fx:id="imgcon1" layoutX="42.0" layoutY="41.0" prefHeight="299.0" prefWidth="255.0" style="-fx-background-color: WHITE; -fx-background-radius: 7; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" visible="false">
+               <children>
+                  <ImageView fx:id="img1" fitHeight="161.0" fitWidth="222.0" layoutX="17.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Scene%20Builder/GettyImages-1151832961.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="56.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Unit" />
+                  <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="17.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@apartment.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="17.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@bed.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="56.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Rooms" />
+                  <Text layoutX="17.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="House 1">
+                     <font>
+                        <Font name="Calibri" size="18.0" />
+                     </font>
+                  </Text>
+                  <Button alignment="CENTER" layoutX="145.0" layoutY="235.0" mnemonicParsing="false" onAction="#gotoextend1" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="View" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="lblunit1" layoutX="48.0" layoutY="243.0" text="0" />
+                  <Label fx:id="lblroom1" layoutX="49.0" layoutY="216.0" text="0" />
+               </children>
+            </Pane>
+            <Pane fx:id="imgcon2" layoutX="324.0" layoutY="41.0" prefHeight="299.0" prefWidth="255.0" style="-fx-background-color: WHITE; -fx-background-radius: 7; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" visible="false">
+               <children>
+                  <ImageView fx:id="img2" fitHeight="161.0" fitWidth="222.0" layoutX="17.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Scene%20Builder/103500764-GettyImages-147205632-2.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="17.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="House 2">
+                     <font>
+                        <Font name="Calibri" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="61.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unit" />
+                  <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="17.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@apartment.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="17.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@bed.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="60.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rooms" />
+                  <Button alignment="CENTER" layoutX="157.0" layoutY="233.0" mnemonicParsing="false" onAction="#gotoextend2" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="View" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="lblroom2" layoutX="48.0" layoutY="216.0" text="0" />
+                  <Label fx:id="lblunit2" layoutX="48.0" layoutY="241.0" text="0" />
+               </children>
+            </Pane>
+            <Pane fx:id="imgcon3" layoutX="608.0" layoutY="41.0" prefHeight="299.0" prefWidth="255.0" style="-fx-background-color: WHITE; -fx-background-radius: 7; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" visible="false">
+               <children>
+                  <ImageView fx:id="img3" fitHeight="161.0" fitWidth="222.0" layoutX="17.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Scene%20Builder/luxury_real_estate_1150278000-1.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="17.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="House 3">
+                     <font>
+                        <Font name="Calibri" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="50.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unit" />
+                  <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="11.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@apartment.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="11.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@bed.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="51.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rooms" />
+                  <Button alignment="CENTER" layoutX="155.0" layoutY="238.0" mnemonicParsing="false" onAction="#gotoextend3" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="View" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="lblroom3" layoutX="42.0" layoutY="219.0" text="0" />
+                  <Label fx:id="lblunit3" layoutX="41.0" layoutY="245.0" prefHeight="17.0" prefWidth="0.0" text="0" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="214.0" layoutY="59.0" prefHeight="57.0" prefWidth="905.0" style="-fx-background-color: white;">
+         <children>
+            <Text layoutX="43.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOUSE LIST">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="214.0" prefHeight="57.0" prefWidth="905.0" style="-fx-background-color: white;">
+         <children>
+            <Circle fill="#ececec" layoutX="850.0" layoutY="29.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Text layoutX="772.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLIENT">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="41.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apartment Management System">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="-24.0" prefHeight="657.0" prefWidth="238.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);">
+         <children>
+            <Text fill="#0f969c" layoutX="135.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SLDR">
+               <font>
+                  <Font name="Book Antiqua" size="22.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="33.0" fitWidth="72.0" layoutX="70.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@361_realestate_logo-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="32.0" layoutY="573.0" mnemonicParsing="false" onAction="#btnlogout" prefHeight="57.0" prefWidth="197.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="Logout" textFill="WHITE">
+               <font>
+                  <Font name="Roboto" size="13.333" />
+               </font></Button>
+            <Button layoutX="32.0" layoutY="103.0" mnemonicParsing="false" onAction="#gotoDashboard" prefHeight="57.0" prefWidth="197.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="Dashboard" textFill="WHITE">
+               <font>
+                  <Font name="Roboto" size="13.333" />
+               </font></Button>
+            <Button layoutX="32.0" layoutY="168.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="197.0" style="-fx-background-color: #0C7075; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="Manage House" textFill="WHITE">
+               <font>
+                  <Font name="Roboto" size="13.333" />
+               </font></Button>
+            <Button layoutX="32.0" layoutY="233.0" mnemonicParsing="false" onAction="#gotoPayments" prefHeight="57.0" prefWidth="197.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="Payments" textFill="WHITE">
+               <font>
+                  <Font name="Roboto" size="13.333" />
+               </font></Button>
+            <Button layoutX="32.0" layoutY="298.0" mnemonicParsing="false" onAction="#gotoAccount" prefHeight="57.0" prefWidth="197.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="Account" textFill="WHITE">
+               <font>
+                  <Font name="Roboto" size="13.333" />
+               </font></Button>
+         </children>
+      </Pane>
+   </children>
+</Pane>

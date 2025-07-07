@@ -1,0 +1,22 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "JavaFXApplication6",
+            "request": "launch",
+            "mainClass": "javafxapplication6.JavaFXApplication6",
+            "projectName": "JavaFXApplication6_40ccec3a",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-21.0.2/lib;${workspaceFolder}/lib\" --add-modules javafx.controls,javafx.fxml,com.gluonhq.charm.glisten"
+
+        }
+    ]
+}

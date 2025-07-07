@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="461.0" prefWidth="633.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication6.RegController">
+   <children>
+      <Accordion />
+      <Pane layoutY="81.0" prefHeight="325.0" prefWidth="633.0" style="-fx-background-color: #f4f4f4;">
+         <padding>
+            <Insets bottom="70.0" top="70.0" />
+         </padding>
+         <children>
+            <Line endX="532.0000610351562" endY="-7.62939453125E-6" layoutX="101.0" startX="-100.0" stroke="#9e9e9e" />
+            <Text layoutX="42.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please read the following Privacy Policy. You must accept the terms of this agreement before continuing." wrappingWidth="494.67462158203125" />
+            <TextArea editable="false" layoutX="29.0" layoutY="71.0" prefHeight="200.0" prefWidth="578.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" text="Our commitment to safeguarding your privacy is paramount, and this Privacy Policy outlines how we handle your personal information when you use our Apartment Management System provided by SLDR. By utilizing Apartment Management System, you implicitly consent to the practices detailed herein.&#10;&#10;When you register for an account or use specific features of Apartment Management System, we may collect personal information such as your name, email address, contact details, and apartment information. Additionally, we may gather non-personal data like device information, log data, and usage statistics.&#10;&#10;The information we collect is primarily used to provide, maintain, and enhance Apartment Management System functionality. Additionally, we use it to communicate with you regarding your account and our services, personalize your experience, conduct research, and analyze usage patterns.&#10;&#10;We prioritize the protection of your personal information and implement reasonable security measures to prevent unauthorized access, alteration, disclosure, or destruction. However, it's important to note that no method of transmission over the internet or electronic storage is entirely secure, and absolute security cannot be guaranteed.&#10;&#10;We do not sell, trade, or rent your personal information to third parties. However, we may share it with trusted service providers who assist us in operating our Apartment Management System, conducting our business, or servicing you. Furthermore, we may disclose information in response to legal requests, to protect our rights or property, or to enforce our Terms of Service.&#10;&#10;Apartment Management System may include links to third-party websites or services not under our control. We are not responsible for the content or practices of these third-party entities and encourage you to review their privacy policies before providing any personal information.&#10;" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextArea>
+         </children>
+      </Pane>
+      <Button layoutX="537.0" layoutY="420.0" mnemonicParsing="false" onAction="#btnTexit" prefHeight="25.0" prefWidth="56.0" style="-fx-border-color: #45a9ea;" text="Okay">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="64.0" fitWidth="86.0" layoutX="507.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@361_realestate_logo-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="41.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Privacy Policy">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="67.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please read the following important information before continuing." />
+      <Line endX="532.0000610351562" endY="3.0517578125E-5" layoutX="100.0" layoutY="406.0" startX="-100.0" stroke="#9e9e9e" />
+      <Text fill="#45a9ea" layoutX="522.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SLDR">
+         <font>
+            <Font name="Book Antiqua" size="22.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

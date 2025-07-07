@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="contentArea" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="501.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication6.RegController">
+   <children>
+      <ImageView fitHeight="509.0" fitWidth="750.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true" />
+      <BorderPane layoutX="30.0" layoutY="60.0" prefHeight="381.0" prefWidth="660.0">
+         <left>
+            <AnchorPane prefHeight="382.0" prefWidth="310.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+               <children>
+                  <Text fill="#45a9ea" layoutX="99.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SLDR">
+                     <font>
+                        <Font name="Book Antiqua" size="22.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="43.0" fitWidth="80.0" layoutX="20.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@361_realestate_logo-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Hyperlink fx:id="signin" accessibleRole="TEXT" layoutX="239.0" layoutY="39.0" onAction="#btngotoSignin" text="Sign In" />
+                  <TextField fx:id="txtuname" layoutX="26.0" layoutY="162.0" prefHeight="26.0" prefWidth="270.0" promptText="Username">
+                     <font>
+                        <Font name="Book Antiqua" size="12.0" />
+                     </font>
+                  </TextField>
+                  <Button fx:id="reg" layoutX="25.0" layoutY="337.0" mnemonicParsing="false" onAction="#btnreg" prefHeight="30.0" prefWidth="271.0" style="-fx-background-color: #45a9ea;" text="Sign Up" textFill="WHITE" />
+                  <PasswordField fx:id="txtpsw" layoutX="26.0" layoutY="229.0" prefHeight="26.0" prefWidth="270.0" promptText="Password" />
+                  <PasswordField fx:id="txtconpsw" layoutX="26.0" layoutY="262.0" prefHeight="26.0" prefWidth="270.0" promptText="Confirm Password" />
+                  <CheckBox fx:id="terms" layoutX="28.0" layoutY="292.0" mnemonicParsing="false" text="I agree to the" />
+                  <Hyperlink accessibleRole="TEXT" layoutX="122.0" layoutY="289.0" text="Terms of Services" textFill="#14a5d2" />
+                  <Text layoutX="50.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="and" />
+                  <Hyperlink accessibleRole="TEXT" layoutX="72.0" layoutY="304.0" text="Privacy Policy" textFill="#14a5d2" />
+                  <TextField fx:id="txtemail" layoutX="26.0" layoutY="196.0" prefHeight="26.0" prefWidth="270.0" promptText="Email">
+                     <font>
+                        <Font name="Book Antiqua" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txtpname" layoutX="26.0" layoutY="127.0" prefHeight="26.0" prefWidth="270.0" promptText="Fullname">
+                     <font>
+                        <Font name="Book Antiqua" size="12.0" />
+                     </font>
+                  </TextField>
+                  <Text fill="#45a9ea" layoutX="26.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get Started">
+                     <font>
+                        <Font name="Book Antiqua" size="22.0" />
+                     </font>
+                  </Text>
+                  <ComboBox fx:id="uaccess" editable="false" layoutX="208.0" layoutY="81.0" onAction="#Select" prefHeight="26.0" prefWidth="88.0" promptText="Not  Set" visibleRowCount="3" />
+               </children>
+            </AnchorPane>
+         </left>
+         <right>
+            <AnchorPane prefHeight="382.0" prefWidth="328.0" style="-fx-background-color: WHITE;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="381.0" fitWidth="384.0" layoutX="14.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@wdqWF.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </right>
+      </BorderPane>
+      <Accordion />
+   </children>
+</Pane>

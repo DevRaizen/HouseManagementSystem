@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="contentArea" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="657.0" prefWidth="1118.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication6.ClientHouseControll">
+   <children>
+      <Pane fx:id="imgcon1" layoutX="232.0" layoutY="129.0" prefHeight="262.0" prefWidth="271.0" style="-fx-background-color: WHITE; -fx-background-radius: 7; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" visible="false">
+         <children>
+            <ImageView fx:id="img1" fitHeight="159.0" fitWidth="261.0" layoutX="25.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <Text layoutX="53.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4 Unit" />
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="15.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@apartment.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="17.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@bed.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="53.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3 Rooms" />
+            <Text layoutX="17.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="House 1">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+            <Button alignment="CENTER" layoutX="167.0" layoutY="213.0" mnemonicParsing="false" onAction="#btnviewh1" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="View" textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="214.0" layoutY="59.0" prefHeight="57.0" prefWidth="905.0" style="-fx-background-color: white;">
+         <children>
+            <Text layoutX="43.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOUSE LIST">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="214.0" prefHeight="57.0" prefWidth="905.0" style="-fx-background-color: white;">
+         <children>
+            <Circle fill="#ececec" layoutX="850.0" layoutY="29.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Text layoutX="699.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADMINISTRATOR">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="41.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apartment Management System">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="-24.0" prefHeight="657.0" prefWidth="238.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);">
+         <children>
+            <Text fill="#0f969c" layoutX="135.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SLDR">
+               <font>
+                  <Font name="Book Antiqua" size="22.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="33.0" fitWidth="72.0" layoutX="70.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Logo.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="32.0" layoutY="573.0" mnemonicParsing="false" onAction="#btnlogout" prefHeight="57.0" prefWidth="197.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="Logout" textFill="WHITE">
+               <font>
+                  <Font name="Roboto" size="13.333" />
+               </font></Button>
+            <Pane layoutX="32.0" layoutY="168.0" prefHeight="57.0" prefWidth="197.0" style="-fx-background-color: #0C7075; -fx-background-radius: 5; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);">
+               <children>
+                  <Text fill="WHITE" layoutX="45.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="View Client House">
+                     <font>
+                        <Font name="Roboto" size="13.333" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Button layoutX="32.0" layoutY="103.0" mnemonicParsing="false" onAction="#gotoDashboard" prefHeight="57.0" prefWidth="197.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="Dashboard" textFill="WHITE">
+               <font>
+                  <Font name="Roboto" size="13.333" />
+               </font></Button>
+            <Button layoutX="32.0" layoutY="233.0" mnemonicParsing="false" onAction="#gotoTenant" prefHeight="57.0" prefWidth="197.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="View Tenants" textFill="WHITE">
+               <font>
+                  <Font name="Roboto" size="13.333" />
+               </font></Button>
+            <Button layoutX="32.0" layoutY="298.0" mnemonicParsing="false" onAction="#gotoPayment" prefHeight="57.0" prefWidth="197.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="Payments" textFill="WHITE">
+               <font>
+                  <Font name="Roboto" size="13.333" />
+               </font>
+            </Button>
+            <Button layoutX="32.0" layoutY="363.0" mnemonicParsing="false" onAction="#gotoAccounts" prefHeight="57.0" prefWidth="197.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="Accounts" textFill="WHITE">
+               <font>
+                  <Font name="Roboto" size="13.333" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane fx:id="imgcon2" layoutX="523.0" layoutY="130.0" prefHeight="262.0" prefWidth="271.0" style="-fx-background-color: WHITE; -fx-background-radius: 7; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" visible="false">
+         <children>
+            <ImageView fx:id="img2" fitHeight="159.0" fitWidth="255.0" layoutX="24.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@103500764-GettyImages-147205632-2.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="17.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="House 2">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="53.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4 Unit" />
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="17.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@apartment.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="17.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@bed.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="53.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4 Rooms" />
+            <Button alignment="CENTER" layoutX="148.0" layoutY="212.0" mnemonicParsing="false" onAction="#btnviewh2" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="View" textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane fx:id="imgcon3" layoutX="823.0" layoutY="130.0" prefHeight="262.0" prefWidth="271.0" style="-fx-background-color: WHITE; -fx-background-radius: 7; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" visible="false">
+         <children>
+            <ImageView fx:id="img3" fitHeight="159.0" fitWidth="223.0" layoutX="24.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <Text layoutX="17.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="House 3">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="47.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4 Unit" />
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="11.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@apartment.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="11.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@bed.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="47.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2 Rooms" />
+            <Button alignment="CENTER" layoutX="153.0" layoutY="218.0" mnemonicParsing="false" onAction="#btnviewh3" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="View" textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Button layoutX="993.0" layoutY="71.0" mnemonicParsing="false" onAction="#addhouse" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="Add House" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Pane fx:id="imgcon4" layoutX="232.0" layoutY="410.0" prefHeight="238.0" prefWidth="271.0" style="-fx-background-color: WHITE; -fx-background-radius: 7; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" visible="false">
+         <children>
+            <ImageView fx:id="img4" fitHeight="159.0" fitWidth="239.0" layoutX="23.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@GettyImages-1151832961.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="127.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4 Unit" />
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="98.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@apartment.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="13.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@bed.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="45.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3 Rooms" />
+            <Text layoutX="17.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="House 1">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+            <Button alignment="CENTER" layoutX="173.0" layoutY="190.0" mnemonicParsing="false" onAction="#btnviewh4" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="View" textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane fx:id="imgcon5" layoutX="529.0" layoutY="410.0" prefHeight="238.0" prefWidth="271.0" style="-fx-background-color: WHITE; -fx-background-radius: 7; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" visible="false">
+         <children>
+            <ImageView fx:id="img5" fitHeight="159.0" fitWidth="239.0" layoutX="23.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@GettyImages-1151832961.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="127.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4 Unit" />
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="98.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@apartment.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="13.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@bed.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="45.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3 Rooms" />
+            <Text layoutX="17.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="House 1">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+            <Button alignment="CENTER" layoutX="173.0" layoutY="190.0" mnemonicParsing="false" onAction="#btnviewh5" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="View" textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane fx:id="imgcon6" layoutX="824.0" layoutY="410.0" prefHeight="238.0" prefWidth="271.0" style="-fx-background-color: WHITE; -fx-background-radius: 7; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" visible="false">
+         <children>
+            <ImageView fx:id="img6" fitHeight="159.0" fitWidth="239.0" layoutX="23.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@GettyImages-1151832961.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="127.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4 Unit" />
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="98.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@apartment.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="13.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@bed.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="45.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3 Rooms" />
+            <Text layoutX="17.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="House 1">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+            <Button alignment="CENTER" layoutX="173.0" layoutY="190.0" mnemonicParsing="false" onAction="#btnviewh6" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #0F969C; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);" text="View" textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</Pane>

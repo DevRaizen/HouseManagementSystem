@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="contentArea" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="501.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication6.loginController">
+   <children>
+      <ImageView fitHeight="509.0" fitWidth="750.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true" />
+      <BorderPane layoutX="30.0" layoutY="60.0" prefHeight="381.0" prefWidth="660.0">
+         <left>
+            <AnchorPane prefHeight="382.0" prefWidth="310.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+               <children>
+                  <Text fill="#45a9ea" layoutX="20.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In">
+                     <font>
+                        <Font name="Book Antiqua" size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#45a9ea" layoutX="87.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SLDR">
+                     <font>
+                        <Font name="Book Antiqua" size="22.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="43.0" fitWidth="80.0" layoutX="12.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@361_realestate_logo-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="uname" layoutX="20.0" layoutY="178.0" prefHeight="26.0" prefWidth="270.0" promptText="Username">
+                     <font>
+                        <Font name="Book Antiqua" size="12.0" />
+                     </font>
+                  </TextField>
+                  <Button layoutX="20.0" layoutY="309.0" mnemonicParsing="false" onAction="#btnlog" prefHeight="30.0" prefWidth="271.0" style="-fx-background-color: #45a9ea;" text="Log In" textFill="WHITE" />
+                  <Hyperlink fx:id="createAccount" accessibleRole="TEXT" layoutX="239.0" layoutY="39.0" onAction="#signUp" text="Sign Up" textFill="#45a9ea" />
+                  <Text fill="#919191" layoutX="20.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In to continue">
+                     <font>
+                        <Font name="Book Antiqua" size="12.0" />
+                     </font>
+                  </Text>
+                  <PasswordField fx:id="psw" layoutX="20.0" layoutY="221.0" prefHeight="26.0" prefWidth="270.0" promptText="Password" />
+                  <Hyperlink accessibleRole="TEXT" layoutX="193.0" layoutY="255.0" text="Forgot password?" textFill="#45a9ea" />
+               </children>
+            </AnchorPane>
+         </left>
+         <right>
+            <AnchorPane prefHeight="382.0" prefWidth="328.0" style="-fx-background-color: WHITE;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="381.0" fitWidth="384.0" layoutX="14.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@wdqWF.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </right>
+      </BorderPane>
+      <Accordion />
+   </children>
+</Pane>
